@@ -1,0 +1,17 @@
+**global sayi1 , sayi2 dersek artýk bu deðiþkenler global deðiþkenlerdir.
+
+**pythonda uzun bir while tanýmlanacaksa *****genelde main in içinde tanýmlanýr. ***** durum = False ******** while not durum yapýsý kullanýlýr.
+
+** Çýkýþ iþlemi için en son durum = True deðeri verilir. Programdan çýkýþ saðlanýr. 
+
+**def gerisayim(n=5): ------------>>>>>>>> default ayardýr. Parametre gönderilirse default deðil de gönderilen parametre iþleme alýnýr.
+
+**araliktoplama(n, m=100): ---------------->>>>>>>>>> þeklinde sadece birine default deðer atanabilir.
+
+**turtle çiziminde turtle.exitonclick() yazarsak týklamadan programdan çýkýþ yapýlmaz.
+
+**Öz yinelemeli fonksiyonlar sonuca gitmek için kendiini çaðýran fonksiyonlardýr.
+
+**return == 1 deðil de return 1 þeklinde return döndürülebilir.
+
+**
