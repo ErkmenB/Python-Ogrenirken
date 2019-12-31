@@ -1,10 +1,8 @@
-# veritabanı oluşturmak
-#sqlite3 modülünü dahil ediyoruz
 import sqlite3 as sql
 
-vt = sql.connect('kitaplik.sqlite') # bağlanacak olduğumuz veri tabanının adını yazıyoruz eğer sistemde adını yazdığımız veri tabanı yoksa yazılan adda bir veri tabanı oluşturuluyor
+vt = sql.connect('kitaplik.sqlite') 
 
-imlec = vt.cursor() # veri tabanı üzerinde işlem yapmak için imleç oluşturuyoruz
+imlec = vt.cursor() # veri tabanı üzerinde işlem yapmak için imleç oluşturduk.
 
 imlec.execute("CREATE TABLE IF NOT EXISTS kitap_bilgisi (kitap_adi,kitap_yazari,okunma_durumu,begeni)")
 #kitap bilgisi adında içerisine bir tablşo oluşturuyoruz ilgili alanlar ile birlikte
